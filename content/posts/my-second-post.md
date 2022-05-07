@@ -1,6 +1,6 @@
 ---
 title: "有生之年，感谢遇见"
-date: 2022-05-07T01:00:00+08:00
+date: 2019-05-07T01:00:00+08:00
 draft: false
 ---
 
@@ -20,17 +20,17 @@ draft: false
 
 &emsp;&emsp;光荏苒，十载岁月悠悠，
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;我们可能未曾经历过
+&emsp;&emsp;我们可能未曾经历过
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;科协的漫长往昔，
+&emsp;&emsp;科协的漫长往昔，
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;却一定在这短短的一年里，
+&emsp;&emsp;却一定在这短短的一年里，
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;在无限的点点滴滴中，
+&emsp;&emsp;在无限的点点滴滴中，
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;体验过在科协的每一份感动，
+&emsp;&emsp;体验过在科协的每一份感动，
 
-&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;收获过在科协的每一次成长。
+&emsp;&emsp;收获过在科协的每一次成长。
 
 ***
 &emsp;&emsp;时间在飞逝，一晃就要分别。我毅然报名了部长团，因为我认为，这份责任是我该承担的，更因为我想把科协留给我的那些情感，继续传到下一届。带着万分不舍，17级部长团用一个月时间准备了告别晚会，我们想用这样的方式告诉那些照顾了我们整整一年的学长学姐，你们都是最棒的学长学姐！而现在，轮到我们肩负起这份责任了。

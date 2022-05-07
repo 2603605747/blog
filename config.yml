@@ -1,4 +1,53 @@
 baseURL: https://BuaaMiaoJun.github.io/blog
 languageCode: en-us
-title: 喵君的魔法屋
+title: MiaoJun's Blog
 theme: "PaperMod"
+params:
+    profileMode:
+        enabled: true
+        title: "喵君的魔法屋" # optional default will be site title
+        subtitle: "一只猫的日记"
+        imageUrl: /blog/images/NuoWa2.png # optional
+        imageTitle: "一场星空下的旅行" # optional
+        imageWidth: 120 # custom size
+        imageHeight: 120 # custom size
+        buttons:
+        - name: Archive
+          url: "/blog/archive"
+        - name: Github
+          url: "https://github.com/BuaaMiaoJun/blog"
+        - name: blog
+          url: "/blog/posts"
+        - name: search
+          url: "/blog/search"
+    socialIcons: # optional
+        - name: "qq"
+          url: "http://wpa.qq.com/msgrd?v=3&uin=2603605747&site=qq&menu=yes"
+        - name: "github"
+          url: "https://github.com/BuaaMiaoJun"
+        - name: "gitlab"
+          url: "https://gitlab.com"
+        - name: "email"
+          url: "https://mail.qq.com"
+    fuseOpts:
+        isCaseSensitive: false
+        shouldSort: true
+        location: 0
+        distance: 1000
+        threshold: 0.4
+        minMatchCharLength: 0
+        keys: ["title", "permalink", "summary", "content"]
+    ShowShareButtons: false # share button
+    ShowReadingTime: true
+    ShowBreadCrumbs: true
+    editPost:
+        URL: "https://github.com/BuaaMiaoJun/blog/tree/main/content"
+        Text: "Suggest Changes" # edit text
+        appendFilePath: true # to append file path to Edit link
+    ShowPostNavLinks: false # next suggestion
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+    
