@@ -7,19 +7,17 @@ params:
         enabled: true
         title: "喵君的魔法屋" # optional default will be site title
         subtitle: "一只猫的日记"
-        imageUrl: /blog/images/NuoWa2.png # optional
+        imageUrl: /blog/images/星空列车与白的旅行/NuoWa2.png # optional
         imageTitle: "一场星空下的旅行" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
         buttons:
-        - name: Archive
-          url: "/blog/archive"
-        - name: Github
-          url: "https://github.com/BuaaMiaoJun/blog"
         - name: blog
-          url: "/blog/posts"
-        - name: search
-          url: "/blog/search"
+          url: /blog/posts
+        - name: images
+          url: /blog/images
+        - name: bilibili
+          url: https://space.bilibili.com/294098474?spm_id_from=333.1007.0.0
     socialIcons: # optional
         - name: "qq"
           url: "http://wpa.qq.com/msgrd?v=3&uin=2603605747&site=qq&menu=yes"
@@ -40,14 +38,36 @@ params:
     ShowShareButtons: false # share button
     ShowReadingTime: true
     ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    ShowPostNavLinks: false # next suggestion
+    disableSpecial1stPost: false
+    disableScrollToTop: false
+    comments: false
+    hidemeta: false
+    hideSummary: false
+    showtoc: false
+    tocopen: false
     editPost:
         URL: "https://github.com/BuaaMiaoJun/blog/tree/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
-    ShowPostNavLinks: false # next suggestion
 outputs:
     home:
         - HTML
         - RSS
         - JSON # is necessary
+menu:
+  main:
+    - identifier: Search
+      name:  Search
+      url: /search
+      weight: 10
+    - identifier: Archive
+      name: Archive
+      url: /archive
+      weight: 20
+    - identifier: Github
+      name: Github
+      url: https://github.com/BuaaMiaoJun/blog
+      weight: 30
     
