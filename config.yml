@@ -7,7 +7,7 @@ params:
         enabled: true
         title: "喵君的魔法屋" # optional default will be site title
         subtitle: "一只猫的日记"
-        imageUrl: /blog/images/星空列车与白的旅行/NuoWa2.png # optional
+        imageUrl: /blog/images/星空列车与白的旅行/2.png # optional
         imageTitle: "一场星空下的旅行" # optional
         imageWidth: 120 # custom size
         imageHeight: 120 # custom size
