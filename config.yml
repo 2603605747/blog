@@ -3,6 +3,8 @@ languageCode: en-us
 title: MiaoJun's Blog
 theme: "PaperMod"
 params:
+    author: MiaoJun
+    env: production
     profileMode:
         enabled: true
         title: "喵君的魔法屋" # optional default will be site title
@@ -18,6 +20,7 @@ params:
           url: /blog/images
         - name: bilibili
           url: https://space.bilibili.com/294098474?spm_id_from=333.1007.0.0
+
     socialIcons: # optional
         - name: "qq"
           url: "http://wpa.qq.com/msgrd?v=3&uin=2603605747&site=qq&menu=yes"
@@ -27,7 +30,8 @@ params:
           url: "https://gitlab.com"
         - name: "email"
           url: "https://mail.qq.com"
-    fuseOpts:
+
+    fuseOpts: # search
         isCaseSensitive: false
         shouldSort: true
         location: 0
@@ -35,6 +39,8 @@ params:
         threshold: 0.4
         minMatchCharLength: 0
         keys: ["title", "permalink", "summary", "content"]
+
+    Displays a Scroll-to-Top button in right-bottom corner: true
     ShowShareButtons: false # share button
     ShowReadingTime: true
     ShowBreadCrumbs: true
@@ -47,10 +53,18 @@ params:
     hideSummary: false
     showtoc: false
     tocopen: false
+    responsiveImages: false
+    linkFullImages: true
+
     editPost:
         URL: "https://github.com/BuaaMiaoJun/blog/tree/main/content"
         Text: "Suggest Changes" # edit text
         appendFilePath: true # to append file path to Edit link
+
+    cover:
+        responsiveImages: false
+        linkFullImages: true
+
 outputs:
     home:
         - HTML
@@ -70,4 +84,5 @@ menu:
       name: Github
       url: https://github.com/BuaaMiaoJun/blog
       weight: 30
+
     
